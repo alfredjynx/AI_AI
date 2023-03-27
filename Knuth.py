@@ -49,11 +49,8 @@ def main():
     result = algorithm.search(state)
     if result != None:
         r = result.show_path()
-        print(result.show_path())
     else:
         r = 'Nao achou solucao'
-        print(r)
-    print(r == 'Nao achou solucao')
-
+    print(r)
 if __name__ == '__main__':
     main()
